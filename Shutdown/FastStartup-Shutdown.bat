@@ -1,3 +1,4 @@
+echo off
 ECHO Hybrid shutdown in 20 Seconds
 REM Performs a shutdown of the computer and prepares it for fast startup
 REM Leaving 20 seconds to change your mind...

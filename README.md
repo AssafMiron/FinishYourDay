@@ -13,20 +13,20 @@ Hope you find it useful
 
 ## Available snippets
 ### Pre-Shutdown
-- [Disconnect VPN](disconnect-VPN.bat)
+- [Disconnect VPN](Pre-Shutdown\disconnect-VPN.bat)
     - Samples for Checkpoint VPN and Juniper Pulse VPN
-- [Log date and time](LogDate.bat)
+- [Log date and time](Pre-Shutdown\LogDate.bat)
     - Will log the end date and time to a CSV file
     - You should change the path for the CSV file and pre-create it with the relevant headers
     - To complete the use for this file, you can create a similar script that you use to start your day (and log the time you start your day in the same CSV)
-- [Suspend VMWare VMs](Suspend-VM.bat)
+- [Suspend VMWare VMs](Pre-Shutdown\Suspend-VM.bat)
     - USed to suspend any running VMWare workstation VMs that might be running
 
 ### Shutdown
 Samples include a 20 seconds timeout
-- [Hibernate](Hibernate.bat)
-- [Shutdown with fast startup](FastStartup-Shutdown.bat)
-- [Logoff](Logoff.bat)
+- [Hibernate](Shutdown\Hibernate.bat)
+- [Shutdown with fast startup](Shutdown\FastStartup-Shutdown.bat)
+- [Logoff](Shutdown\Logoff.bat)
 
 
 # License
